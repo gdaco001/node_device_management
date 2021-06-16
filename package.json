@@ -1,0 +1,19 @@
+{
+  "name": "node_device_management",
+  "version": "1.0.0",
+  "description": "Device management app for Eldorado challange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdaco001/node_device_management.git"
+  },
+  "author": "Gabriel da Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdaco001/node_device_management/issues"
+  },
+  "homepage": "https://github.com/gdaco001/node_device_management#readme"
+}
