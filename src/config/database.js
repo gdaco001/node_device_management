@@ -2,9 +2,8 @@ module.exports = {
     host: '127.0.0.1',
     username: 'docker',
     password: 'docker',
-    database: 'nodeauth',
+    database: 'device_manager_db',
     dialect: 'postgres',
-    operatorsAliases: false,
     logging: false,
     define:{
         timestamps: true,
