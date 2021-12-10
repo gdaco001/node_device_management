@@ -1,4 +1,8 @@
-const express = require('express')
+require('dotenv').config({
+    path: process.env.NODE_ENV == 'test' ? '.env.test' : 'test'
+});
+
+const express = require('express');
 
 class AppController{
     constructor(){
@@ -12,4 +16,4 @@ class AppController{
     }
 }
 
-module.exports = new AppController().express
+module.exports = new AppController().express;
