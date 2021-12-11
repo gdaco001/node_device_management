@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "sequelize-cli": "^6.3.0",
-    "sqlite3": "^4.2.0"
+    "sqlite3": "^4.2.0",
+    "supertest": "^6.1.6"
   }
 }
